@@ -49,7 +49,7 @@ function render() {
     
     gl.clear( gl.COLOR_BUFFER_BIT );
 
-    theta += 0.1;
+    theta += 0.025;
     gl.uniform1f( thetaLoc, theta );
 
     gl.drawArrays( gl.TRIANGLE_STRIP, 0, 4 );
