@@ -1,7 +1,4 @@
 
-
-
-
 var canvas;
 var gl;
 
@@ -44,7 +41,6 @@ window.onload = function init()
     
     thetaLoc = gl.getUniformLocation( program, "theta" );
 
-
     render();
 };
 
@@ -60,6 +56,3 @@ function render() {
 
     window.requestAnimFrame(render);
 }
-NOTE 4
-
-FILE NAME: rotatingSquare1.js
